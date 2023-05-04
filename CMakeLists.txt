@@ -7,22 +7,7 @@ project("win32Stream" DESCRIPTION "Win32 screen capture library" LANGUAGES CXX)
 find_package(OpenCV REQUIRED)
 #find_package(Tesseract CONFIG REQUIRED)
 
-file(GLOB HDR_FILES "${CMAKE_SOURCE_DIR}/src/*.hpp"
-					"${CMAKE_SOURCE_DIR}/src/capture/*.hpp"
-					"${CMAKE_SOURCE_DIR}/src/ProcessEngine/*.hpp"
-					"${CMAKE_SOURCE_DIR}/src/exception/*.hpp"
-)
-
-file(GLOB SRC_FILES "${CMAKE_SOURCE_DIR}/src/*.cpp"
-					"${CMAKE_SOURCE_DIR}/src/capture/*.cpp"
-					"${CMAKE_SOURCE_DIR}/src/ProcessEngine/*.cpp"
-					"${CMAKE_SOURCE_DIR}/src/exception/*.cpp"
-)
-
-set(WIN32_STREAM_SOURCE ${HDR_FILES} ${SRC_FILES})
-
-message("Headers: ${HDR_FILES}")
-message("Source: ${SRC_FILES}")
+file(GLOB_RECURSE WIN32_STREAM_SOURCE "${CMAKE_SOURCE_DIR}/src/*.hpp" "${CMAKE_SOURCE_DIR}/src/*.cpp")
 
 add_library(${PROJECT_NAME} ${WIN32_STREAM_SOURCE})
 
