@@ -1,5 +1,5 @@
-#ifndef _BASIC_WIN32_CAPTURE_SCREEN_HPP_
-#define _BASIC_WIN32_CAPTURE_SCREEN_HPP_
+#ifndef _BASIC_WIN32STREAM_CAPTURE_SCREEN_HPP_
+#define _BASIC_WIN32STREAM_CAPTURE_SCREEN_HPP_
 
 #include "Exception/CaptureChecker.hpp"
 #include "CommonTypes.hpp"
@@ -37,5 +37,5 @@ protected:
 	BITMAP m_bitmapWindow;
 };
 
-#endif // _BASIC_WIN32_CAPTURE_SCREEN_HPP_
+#endif // _BASIC_WIN32STREAM_CAPTURE_SCREEN_HPP_
 

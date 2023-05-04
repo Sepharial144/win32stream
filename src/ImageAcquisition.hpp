@@ -1,7 +1,7 @@
-#ifndef _I_IMAGE_ACQUISITION_HPP_
-#define _I_IMAGE_ACQUISITION_HPP_
+#ifndef _WIN32STREAM_I_IMAGE_ACQUISITION_HPP_
+#define _WIN32STREAM_I_IMAGE_ACQUISITION_HPP_
 
-#include "Capture/CommonTypes.hpp"
+#include "capture/CommonTypes.hpp"
 
 #include <memory>
 
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif // _I_IMAGE_ACQUISITION_HPP_
+#endif // _WIN32STREAM_I_IMAGE_ACQUISITION_HPP_

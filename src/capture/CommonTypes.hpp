@@ -5,8 +5,8 @@
 //
 // Copyright (c) Microsoft Corporation. All rights reserved
 
-#ifndef _COMMONTYPES_HPP_
-#define _COMMONTYPES_HPP_
+#ifndef _WIN32STREAM_COMMONTYPES_HPP_
+#define _WIN32STREAM_COMMONTYPES_HPP_
 
 #include <windows.h>
 //#pragma comment(lib, "d3d11.lib")
@@ -60,4 +60,4 @@ enum class StatusImage
 };
 
 
-#endif // _COMMONTYPES_HPP_
+#endif // _WIN32STREAM_COMMONTYPES_HPP_

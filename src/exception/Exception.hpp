@@ -1,5 +1,5 @@
-#ifndef _WIN32_EXCEPTION_HPP_
-#define _WIN32_EXCEPTION_HPP_
+#ifndef _WIN32STREAM_EXCEPTION_HPP_
+#define _WIN32STREAM_EXCEPTION_HPP_
 #include <string>
 #include <exception>
 #include <windows.h>
@@ -131,4 +131,4 @@ public:
 };
 
 
-#endif // !_WIN32_EXCEPTION_HPP_
+#endif // !_WIN32STREAM_EXCEPTION_HPP_

@@ -1,5 +1,5 @@
-#ifndef _WIN32_CAPTURE_CHECKER_HPP_
-#define _WIN32_CAPTURE_CHECKER_HPP_
+#ifndef _WIN32STREAM_CAPTURE_CHECKER_HPP_
+#define _WIN32STREAM_CAPTURE_CHECKER_HPP_
 
 #include "CommonTypes.hpp"
 #include "Exception.hpp"
@@ -74,4 +74,4 @@ void Win32CaptureChecker::checkWin32ValueMessage(const Win32ValueType win32Value
 	}
 }
 
-#endif // _WIN32_CAPTURE_CHECKER_HPP_
+#endif // _WIN32STREAM_CAPTURE_CHECKER_HPP_

@@ -24,9 +24,9 @@ set(WIN32_STREAM_SOURCE ${HDR_FILES} ${SRC_FILES})
 message("Headers: ${HDR_FILES}")
 message("Source: ${SRC_FILES}")
 
-add_library(${PROJECT_NAME} ${HDR_FILES} ${SRC_FILES})
+add_library(${PROJECT_NAME} ${WIN32_STREAM_SOURCE})
 
-#add_subdirectory(examples)
+add_subdirectory(examples)
 
 target_include_directories(${PROJECT_NAME} PUBLIC 
 	${OpenCV_INCLUDE_DIRS}

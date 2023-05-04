@@ -1,5 +1,5 @@
-#ifndef _WIN32_CAPTURE_SCREEN_HPP_
-#define _WIN32_CAPTURE_SCREEN_HPP_
+#ifndef _WIN32STREAM_CAPTURE_SCREEN_HPP_
+#define _WIN32STREAM_CAPTURE_SCREEN_HPP_
 
 #include "CommonTypes.hpp"
 #include "ImageAcquisition.hpp"
@@ -24,4 +24,4 @@ private:
 };
 
 
-#endif // _WIN32_CAPTURE_SCREEN_HPP_
+#endif // _WIN32STREAM_CAPTURE_SCREEN_HPP_
